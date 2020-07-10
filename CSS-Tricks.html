@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS-TRICKS</title>
+</head>
+<meta name="viewport" content="initial-scale=0 ,width=device-width">
+<link rel="stylesheet" type="text/css" href="CSS-Tricks_files/fonts.css">
+<link rel="stylesheet" type="text/css" href="CSS-Tricks_files/instant-search.min.css">
+<link rel="stylesheet" type="text/css" href="CSS-Tricks_files/style(1).css">
+<link rel="stylesheet" type="text/css" href="CSS-Tricks_files/style.css">
+<link rel="stylesheet" type="text/css" href="CSS-Tricks_files/wc-memberships-frontend.min.css">
+<link rel="stylesheet" type="text/css" href="CSS-Tricks_files/main.css">
+<body>
+<div class="first-section">
+<header class="header">
+<div class="logo" style="margin-left: 10px;margin-top: 10px;">
+    <img src="./CSS-Tricks_files/logo.png">
+</div>
+<div class="logo-caption">
+  <h3 style="margin-top: 15px;font-family: sans-serif;font-size: 1.5em;letter-spacing: 1px;"> CSS-TRICKS </h3>
+</div>
+<nav style="margin-left: -10px;">
+  <ul>
+    <li class="element">
+      <img src="./CSS-Tricks_files/header-article.png" height="40px" width="40px"> 
+      <span style="padding: 5px;">Article</span>
+    </li>
+    <li class="element">
+      <img src="./CSS-Tricks_files/header-videos.png" height="40px" width="40px">
+      <span style="padding: 5px;">Videos</span>
+    </li>
+    <li class="element">
+      <img src="./CSS-Tricks_files/header-almanac.png" height="40px" width="40px">
+      <span style="padding:5px;position: absolute;margin-top: 40px;margin-left: -65px;">Almanac</span>
+    </li>
+    <li class="element">
+      <img src="./CSS-Tricks_files/header-newsletter.png" height="40px" width="40px">
+      <span style="padding:5px;">Newsletter</span>
+    </li>
+    <li class="element">
+      <img src="./CSS-Tricks_files/header-guides.png" height="40px" width="40px">
+      <span style="padding: 5px;position: absolute;margin-top: 40px;margin-left: -55px;">Guides</span>
+    </li>
+    <li class="element">
+      <img src="./CSS-Tricks_files/header-books.png" height="40px" width="40px">
+      <span style="padding:5px;">Books</span>
+    </li>
+    <li class="element" style="border-right-style: solid;" height="30px" width="30px">
+      <img src="./CSS-Tricks_files/header-account.png" style="margin-left: -5px;">
+      <span style="padding:5px;position: absolute;margin-top: 40px;margin-left: -65px;">Account</span>
+    </li>
+  </ul>
+</nav>
+<div style="width: 280px;background-color: transparent; flex-direction: row-reverse;padding-left: 30px;vertical-align: middle;margin-top: 5px">
+  <form>
+  <div class="search-box">
+      <input type="text" placeholder="e.g. flexbox" style="border:none;padding-left: 10px;padding-top: 6px;background-color: transparent;color: white;" required>
+    <div class="search-btn" style="position:absolute;background-image: linear-gradient(to right,orange,purple);display: inline-block;width: 50px;height: 40px;margin-top: -2px;margin-left: 0px; border-top-right-radius: 45px;border-bottom-right-radius: 45px;border-bottom-left-radius: 20px;border-top-left-radius: 20px;margin-right: -2px;">
+      <img src="./CSS-Tricks_files/search.png" width="20px" height="20px" style="margin-left: 15px;  padding-top: 10px; flex-direction: row-reverse;">
+    </div>   
+  </div>
+</form>
+</div>
+</header>
+<div class="first-flex-combo">
+  <div class="first-flex-combo-one">
+      <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;">Fresh Article</strong>
+      <time datetime="2020-06-30">
+        June 30,2020
+      </time><br>
+      <a style="font-weight: bolder;font-size: 46px;">New in Chrome: CSS Overview</a>
+      <div class="first-flex-combo-one_subtitle">
+        <img src="./CSS-Tricks_files/robin_rendle.png" width="100px" height="108px">
+        <div style="width: 91px; height: 45px; vertical-align: middle;margin-top: 15px;margin-left: 20px;">
+          <p style="font-size: 11px;font-weight: bold;color: grey;">Author
+          <a class="white_to_gradient" id="white_to_gradient" style="font-size:14px;color: white;font-weight: 0px;margin-top: -10px;">Robin&nbsp;Rendle</a>
+        </p>
+        </div>
+        <div style="width: 91px; height: 45px; vertical-align: middle;margin-top: 15px;margin-left: 20px;">
+          <p style="font-size: 11px;font-weight: bold;color: grey;">Comments
+          <a class="white_to_gradient" id="white_to_gradient" style="font-size:14px;color: white;font-weight: 0px;margin-top: -10px;">Start&nbsp;Conversation</a>
+        </p>
+        </div>
+        <div id="sub_arrow_article" style="width: 91px; height: 45px; vertical-align: middle;margin-top: 33px;margin-left: 35px;">
+          <img src="./CSS-Tricks_files/arrow.png">
+        </div>
+      </div>
+      <div class="first-flex-combo-one_content" style="margin-top: 10px;color: rgb(194, 194, 194); font-family: Baskerville Old Face;font-size: 22px;">
+        Here’s a fancy new experimental feature in Chrome! Now, we can get an overview of the CSS used on a site, from how many colors there are to the number of unused declarations… even down to the total number of defined media queries.…
+      </div>
+      <span class="gradient_text" style="position: absolute;margin-top: 20px;font-size: 20px;">Read Article</span>
+      <div class="specialization">
+        DEVTOOLS
+      </div>
+  </div>
+  <div class="first-flex-combo-two" id="ad">
+      <div class="ad-img" id="ad-img">
+        <a><img src="./CSS-Tricks_files/ad-product.jpg"></a>
+      </div>
+      <div class="ad-footer" id="ad-footer">
+        <a><img src="./CSS-Tricks_files/ad-pic.png" width="60px" height="60px"></a>
+        <div class="text to_white" style="cursor: pointer;">
+        Wufoo powers all our web&nbsp;forms here at CSS-Tricks, and has for over a decade!
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="second-section">
+  <div class="left-card">
+    <h2 class="card-title">
+      Popular<br>this<br>month
+    </h2>
+    <div class="sponsor-card">
+      <p>Sponsored by<br>
+        <span>Frontend Master</span>
+      </p>
+    </div>
+  </div>
+  <div class="mini-cards-section">
+    <!-- mini-card -->
+    <div class="mini-card" style="z-index: 1;">
+      <p style="font-family: Baskerville Old Face;font-weight: bold;font-size: 14px;color: white;">Article
+      <time datetime="2020-06-30" style="font-size: 14px; padding-left: 20px;">
+        April 24,2020
+      </time></p>
+      <a style="font-weight: bolder;font-size: 20px;">How to Make a CSS-Only Carousel </a>
+      <div class="content-of-card">
+        <img src="./CSS-Tricks_files/robin_rendle_card.png" width="80px" height="80px">
+        <div style="width: 91px; height: 45px; vertical-align: middle;margin-top: 15px;margin-left: 20px;">
+          <p style="font-size: 11px;font-weight: bold;color: grey;">Author
+          <a class="white_to_gradient" id="white_to_gradient" style="font-size:14px;color: white;font-weight: 0px;margin-top: -10px;">Robin&nbsp;Rendle</a>
+          </p>
+        </div>
+        <div class="specialization">
+        CAROUSEL
+        </div>
+      </div>
+    </div>
+    <!-- mini-card-end -->
+    <!-- mini-card -->
+    <div class="mini-card" style="z-index: 2;">
+      <p style="font-family: Baskerville Old Face;font-weight: bold;font-size: 14px;color: white;">Article
+      <time datetime="2020-06-30" style="font-size: 14px; padding-left: 20px;">
+        April 24,2020
+      </time></p>
+      <a style="font-weight: bolder;font-size: 20px;">SVG, Favicons, and All the Fun Things We Can Do With Them </a>
+      <div class="content-of-card" style="margin-top: -50px;">
+        <img src="./CSS-Tricks_files/eric_bailey.png" width="80px" height="80px">
+        <div style="width: 91px; height: 45px; vertical-align: middle;margin-top: 15px;margin-left: 20px;">
+          <p style="font-size: 11px;font-weight: bold;color: grey;">Author
+          <a class="white_to_gradient" id="white_to_gradient" style="font-size:14px;color: white;font-weight: 0px;margin-top: -10px;">Eric&nbsp;Bailey </a>
+          </p>
+        </div>
+        <div class="specialization">
+        DARKMODE
+        </div>
+        <div class="specialization" style="position:absolute;margin-left: 90px;">
+        FAVICON
+        </div>
+        <div class="specialization" style="position:absolute;margin-left: 0px;margin-top: 110px;">
+        MEDIA QUERIES
+        </div>
+        <div class="specialization" style="position:absolute;margin-left: 110px;margin-top: 110px;">
+        SVG
+        </div>
+      </div>
+      </div>
+    <!-- mini-card-end -->
+    <!-- mini-card -->
+    <div class="mini-card" style="width: 300px;height: 421px;z-index: 3;">
+      <p style="font-family: Baskerville Old Face;font-weight: bold;font-size: 14px;color: white;">Article
+      <time datetime="2020-06-30" style="font-size: 14px; padding-left: 20px;">
+        April 24,2020
+      </time></p>
+      <a style="font-weight: bolder;font-size: 20px;">Creating Playful Effects With CSS Text Shadows</a>
+      <div class="content-of-card">
+        <img src="./CSS-Tricks_files/sarah_fossheim.png" width="80px" height="80px">
+        <div style="width: 91px; height: 45px; vertical-align: middle;margin-top: 15px;margin-left: 20px;">
+          <p style="font-size: 11px;font-weight: bold;color: grey;">Author
+          <a class="white_to_gradient" id="white_to_gradient" style="font-size:14px;color: white;font-weight: 0px;margin-top: -10px;">Sarah&nbsp;Fossheim</a>
+          </p>
+        </div>
+        <div class="specialization">
+        TEXT EFFECT
+        </div>
+      </div>
+    </div>
+    <!-- mini-card-end -->
+    <!-- mini-card -->
+    <div class="mini-card" style="width: 300px;height: 421px;z-index: 4;">
+      <p style="font-family: Baskerville Old Face;font-weight: bold;font-size: 14px;color: white;">Article
+      <time datetime="2020-06-30" style="font-size: 14px; padding-left: 20px;">
+        April 24,2020
+      </time></p>
+      <a style="font-weight: bolder;font-size: 20px;">Advice for Writing a Technical Resume </a>
+      <div class="content-of-card">
+        <img src="./CSS-Tricks_files/sarah_drasner.png" width="80px" height="80px">
+        <div style="width: 91px; height: 45px; vertical-align: middle;margin-top: 15px;margin-left: 20px;">
+          <p style="font-size: 11px;font-weight: bold;color: grey;">Author
+          <a class="white_to_gradient" id="white_to_gradient" style="font-size:14px;color: white;font-weight: 0px;margin-top: -10px;">Sarah&nbsp;Drasner</a>
+          </p>
+        </div>
+        <div class="specialization">
+        COVER&nbsp;LETTER
+        </div>
+    </div>
+  <!-- mini-card-end -->
+  </div>
+</div>
+</div>
+<!-- Main-Article -->
+    <section class="main-article" id="main-article">
+      <article class="all-ads" id="all-ads">
+        <div class="ad-one">
+          <div class="ad-img">
+            <img src="./CSS-Tricks_files/1591028064-MC_CSSTricks_Logo_600x600.jpg">
+          </div>
+          <div class="ad-info" style="margin-top: 30px;">
+            <img src="./CSS-Tricks_files/ad-decor.png">
+          </div>
+          <div class="info-state">
+            <p class="text to_white">Don't spend all day sending messages.<br>Automatically reach out to fans based<br> on how they behave.</p>
+            </div>
+        </div>
+        <div class="ad-one">
+          <div class="ad-img">
+            <img src="./CSS-Tricks_files/1593113892-TestimCSS.png">
+          </div>
+          <div class="ad-info">
+            <img src="./CSS-Tricks_files/ad-decor.png">
+          </div>
+          <div class="info-state">
+            <p class="text to_white">Edit tests in your IDE, sync branches<br> with Git, run in CI Sync tests with code<br> branches run on CI, Coded or Codeless<br> it's Test Automation your way.</p>
+            </div>
+        </div>
+        <div class="below-ad">
+          <div class="title-part">
+            OUR LEARNING PARTNER<br>
+            <img src="./CSS-Tricks_files/fem-m_aqgbfh.png" style="width:100px; height: 45px;padding-top: 10px;">
+          </div>
+          <div class="svg">
+          <img src="./CSS-Tricks_files/line.png" style="width: 400px;">
+          </div>
+          <div class="title-info-last">
+            Need some front-end<br> development training?
+          </div>
+          <div class="content-last">
+            <a style="font-weight: 700">Frontend Masters</a> is the best place to get<br> it. They have courses on all the most<br> important front-end technologies, from<br> <a style="font-weight: 700">React</a> to <a style="font-weight: 700">CSS</a>, from <a style="font-weight: 700">Vue</a> to <a style="font-weight: 700">D3</a>, and beyond<br> with <a style="font-weight: 700">Node.js</a> and <a style="font-weight: 700">Full Stack</a>.
+          </div>
+        </div>
+        <div class="last-card">
+          <div class="content">
+            <div class="img">
+            <img src="./CSS-Tricks_files/1550855401-cc_light.png">
+            </div>
+            <a style="color: grey;text-align: left;font-size: 12px;margin-left: 10px;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Students and<br> Teachers, save up to<br> 60% on Adobe Creative<br> Cloud.</a>
+          </div>
+        </div>
+      </article>
+      <article class="articles" id="articles">
+        <!-- Article one -->
+        <p class="article-one" style="position: relative;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;"><img src="./CSS-Tricks_files/link.png" width="30" height="20">Link</strong>
+          <time datetime="2020-06-30" style="padding-left: 5px;">June 30,2020</time><br>
+          <a style="font-weight: bolder;font-size: 34px;margin-top: 5px">Global and Component Style Settings with CSS Variables</a>
+          </div>
+          <div class="article-meta" style="position: relative;margin-top: 200px;">
+            <img src="./CSS-Tricks_files/chris_coyier.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Author<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Chris&nbsp;Coyier</a></p>
+            </div>
+            <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Start&nbsp;Conversation</a></p>
+            </div>
+            <div class="article-arrow">
+            <img src="./CSS-Tricks_files/arrow.png">
+            </div>
+          </div>
+          <div class="article-content" style="padding-top: 20px;">
+            <p class="content" style="width: 710px;">
+            The title of this Sara Soueidan article speaks to me. I’m a big fan of the idea that some CSS is best applied globally, and some CSS is best applied scoped to a component. I’m less interested in how that is done and more interested in just seeing that conceptual approach used in some fashion.<br><br>
+            Sara details an approach where components don’t have too much styling by default, but have CSS custom properties applied to them that are ready to …
+            </p>
+            <p><span class="gradient_text" style="margin-top: 0px;">Read Article</span></p>
+          </div>
+          <a class="specialization" style="position: absolute;margin-top: 20px;">
+              CUSTOM&nbsp;PROPERTIES
+          </a>
+          <a class="specialization" style="position:absolute;margin-top: 20px;margin-left: 140px;">
+              GLOBAL&nbsp;SCOPE
+          </a>
+          <a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 245px;">
+              THEME
+          </a>
+        </p>
+        <!-- Article One End -->
+        <!-- Article two -->
+        <p class="article-one" style="position: relative; margin-top: 200px;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;">Article</strong>
+          <time datetime="2020-06-30" style="padding-left: 5px;">June 30,2020</time><br>
+          <a style="font-weight: bolder;font-size: 34px;margin-top:5px">Responsive Styling Using Attribute Selectors </a>
+          </div>
+          <div class="article-meta" style="padding-top: 130px;">
+            <img src="./CSS-Tricks_files/jakob_e.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Author<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Jakob&nbsp;E</a></p>
+            </div>
+            <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Start&nbsp;Conversation</a></p>
+            </div>
+            <div class="article-arrow">
+            <img src="./CSS-Tricks_files/arrow.png">
+            </div>
+          </div>
+          <div class="article-content" style="padding-top: 20px;">
+            <p class="content" style="width: 710px;">
+            One of the challenges we face when implementing class-based atomic styling is that it often depends on a specific breakpoint for context. We can prefix each breakpoint. This works well until we start adding multiple classes. That’s when it becomes difficult to keep a track what relates to what and where to add, remove. or change stuff.
+            </p>
+            <p><span class="gradient_text" style="margin-top: 0px;">Read Article</span></p>
+          </div>
+          <a class="specialization" style="position: absolute;margin-top: 20px;">
+              ATOMIC
+          </a>
+        </p>
+        <!-- Article Two End -->
+        <!-- Article three -->
+        <p class="article-one" style="position: relative; margin-top: 280px;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;">Article</strong>
+          <time datetime="2020-06-30" style="padding-left: 5px;">June 30,2020</time><br>
+          <a class="white-to-gradient" style="font-weight: bolder;font-size: 34px;margin-top: 5px">Five 5-minute Videos from Ethan on Design &amp; Accessibility
+          </a>
+          </div>
+          <div class="article-meta" style="padding-top: 160px;">
+            <img src="./CSS-Tricks_files/chris_coyier.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Author<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Chris&nbsp;Coyier</a></p>
+            </div>
+           <!--  <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;">Start&nbsp;Conversation</a></p>
+            </div>
+            <div class="article-arrow">
+            <img src="./CSS-Tricks_files/arrow.png">
+            </div> -->
+          </div>
+          <div class="article-content" style="padding-top: 20px;">
+            <a>Ethen:</a>
+            <p class="content" style="width: 710px;font-style: italic;font-weight: bolder;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">
+            &quot;I’ve been working with Aquent Gymnasium to produce a series of five short tutorial videos, which have been launching over the course of this past week. Since the last video just went live, I’m thrilled to share the whole list with you:<br>
+            <li style="text-decoration: underline;font-style: italic;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	"><a>Introduction to using VoiceOver on macOS</a></li>
+            <li style="text-decoration: underline;font-style: italic;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	"><a>Designing beautiful focus states</a></li>
+            <li style="text-decoration: underline;font-style: italic;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	"><a>Flexible and accessible typesetting</a></li>
+            <li style="text-decoration: underline;font-style: italic;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	"><a>Responsively designing with viewport units</a></li>
+            <li style="text-decoration: underline;font-style: italic;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	"><a>Designing beautiful and accessible drop caps&quot;</a></li>
+            <br>Five minutes is a real sweet …<br><br>
+            </p>
+            <p><span class="gradient_text" style="margin-top: 0px;">Read Article</span></p>
+          </div>
+          <a class="specialization" style="position: absolute;margin-top: 20px;">
+              ACCESSIBILITY
+          </a>&nbsp;
+          <a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 105px;">
+              ATTRIBUTR&nbsp;SELECTION
+          </a>
+          <a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 255px;">
+              MEDIA&nbsp;QUERY
+          </a>
+        </p>
+        <!-- Article Three End -->
+        <!-- Article Four -->
+        <p class="article-one" style="position: relative; margin-top: 230px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;">Article</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 29,2020</time><br>
+          <a style="font-weight: bolder;font-size: 34px;margin-top: 5px">When Sass and New CSS Features Collide </a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/ana_tudor.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Author<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Ana Tudor</a></p>
+            </div>
+            <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Start&nbsp;Conversation</a></p>
+            </div>
+            <div class="article-arrow">
+            <img src="./CSS-Tricks_files/arrow.png">
+            </div>
+          </div>
+          <div class="article-content" style="padding-top: 20px;">
+            <p class="content" style="width: 710px;">
+            Recently, CSS has added a lot of new cool features such as <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">custom properties</a> and new <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">functions</a>. While these things can make our lives a lot easier, they can also end up interacting with preprocessors, like Sass, in funny ways.<br><br>
+            So this is going to be a post about the issues I’ve encountered, how I go around them, and why I still find Sass necessary these days.…
+            </p>
+            <p><span class="gradient_text" style="margin-top: 0px;">Read Article</span></p>
+          </div>
+          <div style="display: flex;">
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;">
+              ATOMIC
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 69px;">
+              CSS&nbsp;VARIABLES
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 180px;">
+              CUSTOM&nbsp;PROPERTIES
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 320px;">
+              FILTER
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 385px;">
+              GRADIENT
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 465px;">
+              MAX
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 520px;">
+              MIN
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 20px;margin-left: 570px;">
+              SASS
+          </a></p>
+        </div>
+        </p>
+        <!-- Article Four End -->
+        <div class="divi_box">
+          <div style="background-color: transparent;border-radius: 5px;overflow: hidden;float: right;display: inline-block;height: 75px;">
+            <img src="./CSS-Tricks_files/293805-1444204566.png" width="100px" height="75px">
+          </div>
+          <div class="divi_title">
+            <div>
+              <b>The Divi Theme</b>
+            </div>
+          </div>
+          <div class="divi_content" style="font-size: 14px;margin-top: 0px;color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            Download the Ultimate WordPress Theme including our advanced Drag &amp; Drop builder
+          </div>
+        </div>
+        <!-- Article Five -->
+        <p class="article-one" style="position: relative; margin-top: 100px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;"><img src="./CSS-Tricks_files/link.png" width="30" height="20">Link</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 29,2020</time><br>
+          <a class="white-to-gradient" style="font-weight: bolder;font-size: 34px;margin-top: 5px">Styling Layout Wrappers in CSS</a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/geoff_graham.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Shared By<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Geoff Graham</a></p>
+            </div>
+<!--             <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;">Start&nbsp;Conversation</a></p>
+            </div> -->
+            <div class="article-arrow">
+            <img src="./CSS-Tricks_files/arrow.png">
+            </div>
+          </div>
+          <div class="article-content" style="padding-top: 20px;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            <p class="content" style="width: 710px;">
+            Two things that strike me often about the web are <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">how many ways there are</a> to go about the same thing and <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">how many considerations</a> go into even the most seemingly simple things.<br><br>Working with wrapper elements is definitely on both those lists. Wrappers (or containers or whatever) are so common — especially when establishing grid layouts and boundaries for the elements inside them — that it’s easy to take them for granted and reach for them without stepping back …
+            </p>
+            <!-- <div class= "to_white"> -->
+            <span class="gradient_text to_white" style="margin-top: 3px;position: absolute;font-weight: 800;text-decoration: none;">Our Notes</span>
+        <!-- </div> -->
+        <span style="position: absolute;font-weight:800;margin-left: 120px;">/</span>
+        <!-- <div class= "to_white"> -->
+        	<span class="gradient_text to_white" style="margin-top: 0px;position: absolute;margin-left: 140px;font-weight: 800;text-decoration: none;">Read at ishadeed.com<img src="./CSS-Tricks_files/arrow.png" height="25px;" width="34px;"></span>
+            <!-- </div> -->
+          </div>
+          <div style="display: flex;">
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;">
+              CONTAINERS
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 95px;">
+              LAYOUT
+          </a></p>
+        </div>
+        </p>
+        <!-- Article Five End -->
+        <!-- Article Six -->
+        <p class="article-one" style="position: relative; margin-top: 280px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;">Article</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 29,2020</time><br>
+          <a class="white-to-gradient" style="font-weight: bolder;font-size: 34px;margin-top: 5px">The Greatest CSS Tricks VOl.1</a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/chris_coyier.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Author<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Chris&nbsp;Coyier</a></p>
+            </div>
+            <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">2&nbsp;Comments<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Join&nbsp;Conversation</a></p>
+            </div>
+            <div class="article-arrow">
+            <img src="./CSS-Tricks_files/arrow.png">
+            </div>
+          </div>
+          <div class="article-content" style="padding-top: 20px;    font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            <p class="content" style="width: 710px;">
+            Ya know, for a site called “CSS-Tricks” that I’ve run for well over a decade, it’s a little funny we’ve never done a book under that name. I’ve written a book about WordPress and SVG, but never CSS!<br><br>Well, allow me to change that. I’ve been working on a “book” called <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">The Greatest CSS Tricks Vol. I</a>, as my attempt to stay true to this site’s name! The big idea is to make it like a coffee-table book for …
+            </p>
+            <!-- <div class= "white"> -->
+            <p><span class="gradient_text" style="margin-top: 5px;">Read Articles</span></p>
+            <!-- </div> -->
+          </div>
+        </p>
+        <!-- Article Six End -->
+        <!-- Article Seven -->
+        <p class="article-one" style="position: relative; margin-top: 350px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;"><img src="./CSS-Tricks_files/link.png" width="30px">Link</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 26,2020</time><br>
+          <a class="white-to-gradient" style="font-weight: bolder;font-size: 34px;margin-top: 5px">Quick Tips For High Contrast Mode</a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/chris_coyier.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Shared By<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Chris Coyier</a></p>
+            </div>
+<!--             <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;">Start&nbsp;Conversation</a></p>
+            </div> -->
+          </div>
+          <div class="article-content" style="padding-top: 20px;    font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            <p class="content" style="width: 710px;">
+            Sarah Higley has some CSS tricks up her sleeve for dealing with High Contrast Mode on Windows, which I learned is referred to as WHCM.H<br><br>Here’s the first trick:
+            <div class="special-text" style="width: 700px;">
+              &quot;[…] if the default CSS outline property doesn’t give you the visual effect you want [in WHCM] for focus states, there’s a very simple fix. Instead of overriding default browser focus styles with&nbsp;
+              <code style="background-color: rgb(32, 27, 41);padding:5px;border-radius: 5px;">outline:&nbsp;none</code>
+              , make it transparent instead:&nbsp;
+              <code style="background-color: rgb(32, 27, 41);padding:5px;border-radius: 5px;">outline&nbsp;3px&nbsp;solid transparent</code>.
+              &quot;<br>
+            </div>
+            <br>That will essentially do nothing outside …<br>
+            </p>
+            <div style="margin-top: 30px;">
+            <span class="gradient_text to_white" style="margin-top: 3px;position: absolute;font-weight: 800;text-decoration: none;">Our Notes</span><span style="position: absolute;font-weight:800;margin-left: 120px;">/</span><span class="gradient_text to_white" style="margin-top: 0px;position: absolute;margin-left: 140px;font-weight: 800;text-decoration: none;">Read at ishadeed.com <img src="./CSS-Tricks_files/arrow.png" height="25px;" width="34px;"></span>
+            </div>
+          </div>
+          <div style="display: flex;">
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;">
+              ACCESSIBILITY
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 110px;">
+              FOCUS
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 178px;">
+              HIGH&nbsp;CONTRAST
+          </a></p>
+        </div>
+        </p>
+        <!-- Article Seven End -->
+        <!-- Article Eight -->
+        <p class="article-one" style="position: relative; margin-top: 300px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;"><img src="./CSS-Tricks_files/link.png" width="30px">Link</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 26,2020</time><br>
+          <a class="to_white" style="font-weight: bolder;font-size: 34px;margin-top: 5px">The Return of the 90's Web</a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/chris_coyier.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Shared By<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Chris Coyier</a></p>
+            </div>
+<!--             <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;">Start&nbsp;Conversation</a></p>
+            </div> -->
+          </div>
+          <div class="article-content" style="padding-top: 20px;    font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            <p class="content" style="width: 710px;">
+            One of my forever-lessons here on CSS-Tricks is that having your own website and blogging on it is a good idea. It’s probably one of the best decisions I’ve ever made, as it’s been a direct source of fun, career development and, eventually, income.<br><br>I always chuckle at little blogging is cool again declarations from the community. It’s always cool, my friends. But it is always nice to see more people pick it back up.<br><br>I enjoyed <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">this post</a> from …
+            </p>
+            <!-- <div class= "white"> -->
+            <span class="gradient_text to_white" style="margin-top: 3px;position: absolute;font-weight: 800;text-decoration: none;">Our Notes</span><span style="position: absolute;font-weight:800;margin-left: 120px;">/</span><span class="gradient_text to_white" style="margin-top: 0px;position: absolute;margin-left: 140px;font-weight: 800;text-decoration: none;">Read at ishadeed.com <img src="./CSS-Tricks_files/arrow.png" height="25px;" width="34px;"></span>
+            <!-- </div> -->
+          </div>
+          <div style="display: flex;">
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;">
+              BLOGGING
+          </a></p>
+        </div>
+        </p>
+        <!-- Article Eight End -->
+        <!-- Article Nine -->
+        <p class="article-one" style="position: relative; margin-top: 350px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;">Article</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 26,2020</time><br>
+          <a class="white-to-gradient" style="font-weight: bolder;font-size: 34px;margin-top: 5px">In Defence of a Fussy Website</a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/sarah_drasner_2.png" width="100px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Author<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Sarah&nbsp;Drancer</a></p>
+            </div>
+            <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">9&nbsp;Comments<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Join&nbsp;Conversation</a></p>
+            </div>
+            <div id="sub_arrow_article" style="width: 91px; height: 45px; vertical-align: middle;margin-top: 33px;margin-left: 0px;">
+              <img src="./CSS-Tricks_files/arrow.png">
+            </div>
+          </div>
+          <div class="article-content" style="padding-top: 20px;    font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            <p class="content" style="width: 710px;">
+            The other day I was doom-scrolling twitter, and I saw a delightful article titled “<a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">The Case for Fussy Breakfasts</a>.” I love food and especially breakfast, and since the pandemic hit I’ve been using my breaks in between meetings (or sometimes on meetings, shh) to make a full bacon, poached egg, vegetable plate, so I really got into the article. This small joy of creating a bit of space for myself for the most important meal of the day …
+            </p>
+            <!-- <div class= "white"> -->
+            <p><span class="gradient_text" style="margin-top: 3px;">Read Article</span></p>
+            <!-- </div> -->
+          </div>
+          <div style="display: flex;margin-top: -50px;">
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;">
+              CARE
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 60px;">
+              INTENTION
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 150px;">
+              PORTFOLIO
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 240px;">
+              UX
+          </a></p>
+        </div>
+        </p>
+        <!-- Article Nine End -->
+        <!-- Article Ten -->
+        <p class="article-one" style="position: relative; margin-top: 350px;overflow: visible;">
+          <div class="article-title" style="position: absolute;">
+          <strong style="font-family: Baskerville Old Face;font-weight: bold;font-size: 24px;"><img src="./CSS-Tricks_files/link.png" width="30px">Link</strong>
+          <time datetime="2020-06-329" style="padding-left: 5px;">June 26,2020</time><br>
+          <a class="white-to-gradient" style="font-weight: bolder;font-size: 34px;margin-top: 5px">Line-Animated Hamburger Menu</a>
+          </div>
+          <div class="article-meta" style="padding-top: 110px;">
+            <img src="./CSS-Tricks_files/chris_coyier.png" width="90px" height="92">
+            <div class="article-author">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Shared By<br>
+              <a style="font-size: 12px;color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Chris Coyier</a></p>
+            </div>
+<!--             <div class="article-comments">
+              <p style="font-size: 12px; color:grey;font-weight: 700;">Comments<br>
+              <a style="font-size: 12px;color: white;">Start&nbsp;Conversation</a></p>
+            </div> -->
+          </div>
+          <div class="article-content" style="padding-top: 20px;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">
+            <p class="content" style="width: 710px;">
+            This kind of SVG + CSS animation trickery is catnip to me. Mikael Ainalem <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">shares</a> how to draw <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">a hamburger icon</a> (the “three lines” thing you’re well familiar with), but then animate it in a way that is surprising and fun by controlling the SVG properties in CSS.…
+            </p>
+            <!-- <div class= "white"> -->
+            <span class="gradient_text to_white" style="margin-top: 3px;position: absolute;font-weight: 800;text-decoration: none;">Our Notes</span><span style="position: absolute;font-weight:800;margin-left: 120px;">/</span><span class="gradient_text to_white" style="margin-top: 0px;position: absolute;margin-left: 140px;font-weight: 800;text-decoration: none;">Read at ishadeed.com <img src="./CSS-Tricks_files/arrow.png" height="25px;" width="34px;"></span>
+            <!-- </div> -->
+          </div>
+          <div style="display: flex;">
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;">
+              HAMBURGER
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 100px;">
+              STROKE&nbsp;-&nbsp;DASHARRY
+          </a></p>
+          <p><a class="specialization" style="position: absolute;margin-top: 60px;margin-left: 240px;">
+              SVG&nbsp;ANIMATION
+          </a></p>
+        </div>
+        </p>
+        <!-- Article Ten End -->
+      </article>
+    </section>
+    <div class="article-end-btn">
+        Keep browsing in the archieves
+    </div>
+  <!-- Main-Article -->
+    <div class="footer-part">
+    <div class="left-panel">
+      <h2 class="panel-title">Browse<br> the Jobs</h2>
+      <div class="sub-title" style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size: 18px;">
+        Powered by<br>
+        <a style="color: white;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:18px;font-weight: 600;">CodePen Jobs</a>
+      </div>
+      <div class="post-btn">
+        Post a Job
+      </div>
+      <div class="see-btn">
+        See more Jobs
+      </div>
+    </div>
+    <div class="right-cards">
+      <ul>
+        <li class="job-cards">
+          <span class="job-title">
+            Rocketsview Management Sdn Bhd
+          </span>
+          is hiring a Senior Software Engineers - 2 Vacancies<br>
+          <span class="job-cards-footer" style="padding-top: 40px;position: absolute;">
+          <img src="./CSS-Tricks_files/pin.png">
+          <i>Kuala Lumpur, Malaysia </i>
+          </span>
+        </li>
+        <li class="job-cards">
+          <span class="job-title">
+            Automattic
+          </span>     
+            is hiring a
+            Mobile Infrastructure Engineer <br>
+          <span class="job-cards-footer" style="padding-top: 70px;position: absolute;">
+          <img src="./CSS-Tricks_files/pin.png" width="20s">
+          <i>Remote</i>
+          </span>
+        </li>
+        <li class="job-cards">
+          <span class="job-title">
+            Automattic
+          </span>     
+            is hiring a Senior Product Designer,Mobile
+             <br>
+          <span class="job-cards-footer" style="padding-top: 70px;position: absolute;">
+          <img src="./CSS-Tricks_files/pin.png">
+          <i>Remote</i>
+          </span>
+        </li>
+        <li class="job-cards">
+          <span class="job-title">
+            SDCO Partners
+          </span>                
+            is hiring a Web Developer <br>
+          <span class="job-cards-footer" style="padding-top: 90px;position: absolute;">
+          <img src="./CSS-Tricks_files/pin.png">
+          <i>Charleston, SC or Remote! </i>
+          </span>
+        </li>
+        <li class="job-cards">
+          <span class="job-title">
+            Blacksmith Agency 
+          </span>                
+            is hiring a Front-End WP Developer - 100% Remote (looking for mid-sr level applicants) <br>
+          <span class="job-cards-footer" style="padding-top: 10px;position: absolute;">
+          <img src="./CSS-Tricks_files/pin.png">
+          <i>Remote</i>
+          </span>
+        </li>
+        <li class="job-cards">
+          <span class="job-title">
+            Collact 
+          </span>              
+            is hiring a Senior Front End Developer <br>
+          <span class="job-cards-footer" style="padding-top: 90px;position: absolute;">
+          <img src="./CSS-Tricks_files/pin.png">
+          <i>Remote</i>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <div class="above-footer">
+    <hr class="hr1">
+    <h2>How do you stay up to date in this fast⁠-⁠moving industry?</h2>
+    <p style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">A good start is to sign up for our weekly hand-written newsletter. We bring you the best articles and ideas from around the web, and what we think about them.</p>
+    <div class="search-column">
+      <div class="search-input">
+        <input type="text" style="border:none;background-color: transparent;width:350px;margin-top: 10px;margin-left: 10px;" placeholder="lovetricks@internet.cool">
+      </div>
+    
+      <div class="subscribe-btn">
+        <p style="margin-top: 15px;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 700;">Subscribe</p>
+      </div>
+    </div>
+      <div class="social-btn">
+        <div class="btn">
+          <span class="btn-weight">Facebook</span>
+          <p>@CSSTricks</p>
+        </div>
+        <div class="btn">
+          <span class="btn-weight">Twitter</span>
+          <p>@CSS</p>
+        </div>
+        <div class="btn">
+          <span class="btn-weight">Youtube</span>
+          <p>@realcsstricks</p>
+        </div>
+        <div class="btn">
+          <span class="btn-weight">Instagram</span>
+          <p>@real_css_tricks</p>
+        </div>
+        <div class="btn">
+          <span class="btn-weight">RSS</span>
+          <p>@Feed</p>
+        </div>
+      </div>
+  </div>
+    <div class="above-footer-card">
+    <div class="left-panel">
+      CSS-Tricks<span style="color: orange;">*</span> is created, written by, and maintained by <a>Chris Coyier</a> and <a>a team</a> of swell people. The tech stack for this site is fairly <a>boring</a>. That's a good thing! I've used <a>WordPress</a> since day one all the way up to <a>v17</a>, a decision I'm <a>very happy with</a>. I also leverage <a>Jetpack</a> for extra functionality and <a>Local</a> for local development.<br>
+      <p style="font-size:14px;margin-top: 20px;"><span style="color: orange;">*</span>May or may not contain any actual "CSS" or "Tricks".</p>
+    </div>
+    <div class="right-panel">
+      <h2 style="font-weight: 700;font-size: 30px;">other Nav</h2>
+      <div class="panel">
+      <div class="left-side">
+        <ul>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">Contact</a></li>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">Guest&nbsp;Writing</a></li>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">Advertise</a></li>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">Subscribe</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <ul>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">About</a></li>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">Jobs</a></li>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">License</a></li>
+          <li><a style="color: grey;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	">Authors</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+    <div class="footer-tricks-cards">
+    <div class="cards">
+      <div class="logo">
+        <a ><img src="./CSS-Tricks_files/codepen-card.png" style="width: 200px;height: 38px;margin-top: 20px;margin-bottom: 10px;"></a>
+      </div>
+      <div class="content">
+        <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">CodePen</a> is a place to experiment, debug, and show off your HTML, CSS, and JavaScript creations.
+      </div>
+    </div>
+    <div class="cards">
+      <div class="logo">
+        <a><img src="./CSS-Tricks_files/wheel-card.png" style="width: 200px;height: 38px;margin-top: 20px;margin-bottom: 5px;"></a>
+      </div>
+      <div class="content">
+        CSS-Tricks is hosted by <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">Flywheel</a>, the best WordPress hosting in the business, with a local development tool to match.
+      </div>
+    </div>
+    <div class="cards">
+      <div class="logo">
+        <a style="margin-left: 0px;margin-top: -10px; height: 70px;width: 600px;"><img src="./CSS-Tricks_files/shoptalk-card.png"></a>
+      </div>
+      <div class="content">
+        <a style="font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">ShopTalk</a> is a podcast all about front-end web design and development.
+      </div>
+    </div>
+    </div>
+        <div class="footer-tricks-cards-below">
+      <div class="cards">
+        <div class="content">
+          <span style="color: orange;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">CSS-Tricks</span> Presents<br>📅 Upcoming <a style="text-decoration: underline;text-decoration-color: linear-gradient(to right,orange,purple);font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">Front-End Conferences</a>
+        </div>  
+      </div>
+      <div class="cards">
+        <div class="content">
+          <span style="color: orange;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">CSS-Tricks</span> Presents<br><a style="text-decoration: underline;font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-weight: 600;">The Power of Serverless</a> for Front-End Developers
+        </div> 
+      </div>
+    </div>
+</body>
+</html>
